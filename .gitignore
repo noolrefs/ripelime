@@ -1,3 +1,11 @@
+# Git
 .git
 .github/
-main
+
+# Cache
+.cache/
+.xmake/
+build/
+
+# Explicit
+ripelime
