@@ -9,12 +9,12 @@ types/structs:        PascalCase()
 macros:               UPPER_CASE
 
 ```c
-void fn() { // <- brace here
+void func() { // <- brace here
     /* ... */
 }
 
-for (int i=0;  i < 100;  ++i)  <- brace below, two spaces between expressions
-{
+for (int i=0;  i < 100;  ++i)
+{  // <- brace below, two spaces between expressions
     /* for and while are loops so conventionally put braces below the keyword */
 }
 
