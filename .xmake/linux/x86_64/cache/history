@@ -1,0 +1,24 @@
+{
+    cmdlines = {
+        "xmake build -j16 -v PROJECT",
+        "xmake lua /usr/share/xmake/modules/private/utils/statistics.lua --verbose",
+        "xmake config -m debug",
+        "xmake build -j16 -v ripelime",
+        "xmake config -m debug",
+        "xmake build -j16 -v ripelime",
+        "xmake config -m debug",
+        "xmake build -j16 -v ripelime",
+        "xmake config -m debug",
+        "xmake build -j16 -v ripelime",
+        "xmake config -m debug",
+        "xmake build -j16 -v ripelime",
+        "xmake config --mode=debug",
+        "xmake build -j16 -v ripelime",
+        "xmake config --mode=debug",
+        "xmake build -j16 -v ripelime",
+        "xmake config --mode=debug",
+        "xmake build -j16 -v ripelime",
+        "xmake config --mode=debug",
+        "xmake build -j16 -v ripelime"
+    }
+}

@@ -3,10 +3,10 @@ A project queue manager to discuss project ideas with your team.
 
 # Conventions
 tabs:              4 spaces
-variables:         snake_case
-global functions:  `PascalCase()` if object oriented, `camelCase()` if free
-constants:         UPPER_CASE
-types/structs:     PascalCase()
+variables/constants:  snake_case
+global functions:     `PascalCase()` if object oriented, `camelCase()` if free
+types/structs:        PascalCase()
+macros:               UPPER_CASE
 
 ```c
 void fn() { // <- brace here
