@@ -15,7 +15,7 @@ void fn() { // <- brace here
 
 for (int i=0;  i < 100;  ++i)  <- brace below, two spaces between expressions
 {
-    /* for and while are looops so conventionally put braces below the keyword */
+    /* for and while are loops so conventionally put braces below the keyword */
 }
 
 if (cond) { // <- brace here
