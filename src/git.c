@@ -5,7 +5,6 @@
 
 
 int main(){
-    send_data();
 }
 
 Result clone(Url url){
@@ -15,5 +14,5 @@ Result clone(Url url){
 }
 
 Result send_data(){
-    system("git add . && git commit -m added_clone_and_push && git push");
+    system("git add . && git commit -m 0 && git push");
 }
