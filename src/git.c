@@ -16,3 +16,7 @@ Result clone(Url url){
 Result send_data(){
     system("git add . && git commit -m 0 && git push");
 }
+
+Result update_data(){
+    system("git fetch origin main && git reset --hard origin/main");
+}

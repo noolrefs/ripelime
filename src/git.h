@@ -7,4 +7,5 @@ typedef char Result;
 Result is_environment_ready();
 Result clone(Url url);
 Result send_data();
+Result update_data();
 #endif
