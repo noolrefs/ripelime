@@ -5,6 +5,7 @@
 # Cache
 .cache/
 .xmake/
+compile_commands.json
 build/
 
 # Explicit
@@ -12,3 +13,6 @@ ripelime
 
 # executable
 main
+git
+
+run.sh

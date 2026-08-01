@@ -1,6 +1,0 @@
-[
-{
-  "directory": "/home/ziya/dev/main/ripelime",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c17", "-Isrc", "-Ivendor", "-o", "build/.objs/ripelime/linux/x86_64/debug/src/main.c.o", "src/main.c"],
-  "file": "src/main.c"
-}]

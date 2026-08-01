@@ -1,6 +1,11 @@
 # Ripelime
 A project queue manager to discuss project ideas with your team.
 
+# How to use
+1. Have git installed, ensure that you have write access to the repo with the git installed on your system and ensure that git is in $PATH.
+2. Open the app
+3. Enter the repo url
+
 # Conventions
 tabs:              4 spaces
 variables/constants:  snake_case
