@@ -9,7 +9,7 @@ class MainWindow(QMainWindow):
         self.app = QApplication.instance()
         resolution = self.app.primaryScreen().availableSize()
         self.resize(resolution.width()/1.5, resolution.height()/1.5)
-        self.setWindowTitle("Alias Manager")
+        self.setWindowTitle("ripelime")
         self.file_path = None
         self.file_name = None
         self.format_filter = None
