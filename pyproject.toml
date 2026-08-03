@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ripelime"
+version = "0.1.0"
+description = "A project queue manager to discuss project ideas with your team."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+dependencies = [
+    "pyside6-essentials==6.11.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/noolrefs/ripelime"
+Issues = "https://github.com/noolrefs/ripelime/issues"
+
+[project.gui-scripts]
+ripelime = "main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]

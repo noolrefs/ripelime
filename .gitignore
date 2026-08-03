@@ -1,18 +1,10 @@
-# Git
-.git
-.github/
-
-# Cache
-.cache/
-.xmake/
-compile_commands.json
+__pycache__/
+venv/
+.venv/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
 build/
-
-# Explicit
-ripelime
-
-# executable
-main
-git
-
-run.sh
+*.log
+.github/
